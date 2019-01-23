@@ -1,0 +1,21 @@
+{
+  "name": "scrim-team-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot to be used with Scrim Teaming",
+  "main": "bot.js",
+  "author": "Sneak",
+  "engines": {
+    "node": "10.7.0",
+    "npm": "6.1.0"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "mongodb": "^3.1.10",
+    "winston": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
